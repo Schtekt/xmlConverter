@@ -6,13 +6,14 @@ The goal is to convert information from a line by line system to the XML format.
 ## The task
 
 The input file format is:
-
+```
 P|first name|surname
 T|mobile number|landline number
 A|street|city|zipcode
 F|name|year of birth
+```
 
-where P may be followed by T, A and F
+Where P may be followed by T, A and F
 and F may be followed by T and A.
 
 Additionally, P may be followed by multiple F, and in some cases, entries may be incomplete.
@@ -75,5 +76,5 @@ Would equal the following output in the xml format
 </people>
 ```
 
-## About the project
+## Project management
 Maven is used to manage the project. Use relevant commands to run and/or install the application.
